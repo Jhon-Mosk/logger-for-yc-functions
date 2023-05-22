@@ -1,0 +1,16 @@
+{
+    "name": "logger-for-yc-functions",
+    "version": "1.0.0",
+    "description": "логгер для функций яндекс облака, позволяет выводить логи используя уровни яндекса",
+    "main": "logger.js",
+    "author": {
+        "name": "Evgeniy Politiko",
+        "email": "Jhon-mosk@yandex.ru",
+        "url": "https://jhon-mosk.ru/"
+    },
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Jhon-Mosk/logger-for-yc-functions/issues"
+    },
+    "homepage": "https://github.com/Jhon-Mosk/logger-for-yc-functions/blob/master/README.md"
+}
