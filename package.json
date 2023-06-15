@@ -1,13 +1,15 @@
 {
     "name": "logger-for-yc-functions",
-    "version": "1.0.1",
+    "version": "1.1.0",
     "description": "логгер для функций яндекс облака, позволяет выводить логи используя уровни яндекса",
     "keywords": [
         "yandex",
         "yandex cloud",
-        "logger"
+        "logger",
+        "cloud functions",
+        "serveless"
     ],
-    "main": "logger.js",
+    "main": "index.js",
     "author": {
         "name": "Evgeniy Politiko",
         "email": "Jhon-mosk@yandex.ru",
