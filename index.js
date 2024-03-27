@@ -1,5 +1,9 @@
 /** @module Logger */
 
+const {
+  env: { PWD },
+} = require("node:process");
+
 /**
  * @class
  * debug: отладочные сообщения, не выводятся в prod
@@ -12,7 +16,7 @@
 class Logger {
   constructor(module = "unknown") {
     if (module !== "unknown") {
-      this.path = module.filename.split("\\").slice(-2).join("\\");
+      this.path = module.filename.slice(PWD.length + 1);
     } else {
       this.path = module;
     }
