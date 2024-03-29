@@ -1,8 +1,8 @@
 /** @module Logger */
 
-const {
-  env: { PWD },
-} = require("node:process");
+const { cwd } = require("node:process");
+
+const workDir = cwd();
 
 /**
  * @class
@@ -16,7 +16,7 @@ const {
 class Logger {
   constructor(module = "unknown") {
     if (module !== "unknown") {
-      this.path = module.filename.slice(PWD.length + 1);
+      this.path = module.filename.slice(workDir.length + 1);
     } else {
       this.path = module;
     }
