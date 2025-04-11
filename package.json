@@ -1,6 +1,6 @@
 {
   "name": "logger-for-yc-functions",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "логгер для функций яндекс облака, позволяет выводить логи используя уровни яндекса",
   "keywords": [
     "yandex",
@@ -14,6 +14,10 @@
     "name": "Evgeniy Politiko",
     "email": "Jhon-mosk@yandex.ru",
     "url": "https://jhon-mosk.ru/"
+  },
+  "engines": {
+    "node": "^18.0.0",
+    "npm": ">=7.24.2"
   },
   "license": "MIT",
   "bugs": {
